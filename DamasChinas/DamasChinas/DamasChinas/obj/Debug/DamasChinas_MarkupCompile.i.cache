@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\
 DamasChinas
 none
 false
 DEBUG;TRACE
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\App.xaml
-6-763964157
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\App.xaml
+2-1922129441
 
-15-2051663910
+111887538721
 151984215308
-MainWindow.xaml;Registro.xaml;MenuInicio.xaml;AdministrarCuenta.xaml;UnirsePartida.xaml;Historial.xaml;
+MainWindow.xaml;Registrarse.xaml;
 
-True
+False
 

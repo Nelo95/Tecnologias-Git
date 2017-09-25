@@ -61,20 +61,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.es-MX.resx</DependentUpon>
     </Compile>
-    <Compile Include="Registro.xaml.cs">
-      <DependentUpon>Registro.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MenuInicio.xaml.cs">
-      <DependentUpon>MenuInicio.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="AdministrarCuenta.xaml.cs">
-      <DependentUpon>AdministrarCuenta.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UnirsePartida.xaml.cs">
-      <DependentUpon>UnirsePartida.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Historial.xaml.cs">
-      <DependentUpon>Historial.xaml</DependentUpon>
+    <Compile Include="Registrarse.xaml.cs">
+      <DependentUpon>Registrarse.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -88,23 +76,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Registro.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MenuInicio.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="AdministrarCuenta.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UnirsePartida.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Historial.xaml">
+    <Page Include="Registrarse.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
