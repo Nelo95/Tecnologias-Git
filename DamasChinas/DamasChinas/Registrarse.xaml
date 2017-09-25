@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DamasChinas"
         mc:Ignorable="d"
-        Title="Registrarse" Height="300" Width="300">
-    <Grid>
-        
+        Title="Registrarse" Height="426.876" Width="357.299">
+    <Grid Margin="0,0,-54.667,-29.333">
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="133,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="23" Margin="133,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" TextChanged="txtUsuario_TextChanged"/>
+        <PasswordBox x:Name="txtPass" HorizontalAlignment="Left" Margin="133,195,0,0" VerticalAlignment="Top" Width="182"/>
+        <Button x:Name="crearCuentaBttn" Content="Crear cuenta" HorizontalAlignment="Left" Margin="147,258,0,0" VerticalAlignment="Top" Width="75" Click="crearCuenta_Click"/>
+        <Button x:Name="regresarBttn" Content="Regresar" HorizontalAlignment="Left" Margin="240,321,0,0" VerticalAlignment="Top" Width="75" Click="regresarBttn_Click"/>
+        <TextBlock x:Name="Info" HorizontalAlignment="Left" Margin="36,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Ingrese su información personal:"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Nombre" HorizontalAlignment="Left" Margin="36,93,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Usuario" HorizontalAlignment="Left" Margin="36,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Usuario:"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Contraseña" HorizontalAlignment="Left" Margin="36,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.973,0.44"><Run Text="Contraseña:"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Idioma" HorizontalAlignment="Left" Margin="22,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Idioma"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Esp" HorizontalAlignment="Left" Margin="22,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" MouseDown="Esp_MouseDown"><Run Text="es MX"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Eng" HorizontalAlignment="Left" Margin="83,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" MouseDown="Eng_MouseDown"><Run Text="en US"/><LineBreak/><Run/></TextBlock>
+
     </Grid>
 </Window>

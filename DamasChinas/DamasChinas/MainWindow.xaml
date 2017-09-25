@@ -16,7 +16,7 @@
         <TextBlock Name="Pregunta" HorizontalAlignment="Left"  MouseDown="Regitrarse_MouseDown" Height="23" Margin="207,259,0,0" TextWrapping="Wrap" Text="¿ No tienes usuario?" VerticalAlignment="Top" Width="120"/>
         <TextBlock Name="Esp" MouseDown="Esp_MouseDown" HorizontalAlignment="Left" Margin="10,289,0,-0.2" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="es MX"/><LineBreak/><Run/></TextBlock>
         <TextBlock Name="Eng" MouseDown="Eng_MouseDown" HorizontalAlignment="Left" Margin="56,289,0,-0.2" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="en Us"/><LineBreak/><Run/></TextBlock>
-        <TextBlock Name="Registro" HorizontalAlignment="Left" Margin="233,287,0,0" TextWrapping="Wrap" Text="Registrate" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="60">
+        <TextBlock Name="Registro" HorizontalAlignment="Left" Margin="233,287,0,0" TextWrapping="Wrap" Text="Registrate" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="60" MouseDown="Regitrarse_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

@@ -52,6 +52,7 @@ namespace DamasChinas
         private void Regitrarse_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Registrarse registro = new Registrarse();
+            PonerTexto();
             registro.Show();
             Close();
         }
