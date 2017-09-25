@@ -1,0 +1,69 @@
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\bin\Debug\DamasChinas.exe.config
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\bin\Debug\DamasChinas.exe
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\bin\Debug\DamasChinas.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csprojResolveAssemblyReference.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\MainWindow.g.cs
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\App.g.cs
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas_MarkupCompile.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas_MarkupCompile.lref
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\MainWindow.baml
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.g.resources
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.Properties.Resources.resources
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csproj.GenerateResource.Cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csproj.CoreCompileInputs.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.exe
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\Registrarse.g.cs
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\Registrarse.baml
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\bin\Debug\en-US\DamasChinas.resources.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.lenguaje.Resources.en-US.resources
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\en-US\DamasChinas.resources.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\bin\Debug\es-MX\DamasChinas.resources.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\DamasChinas.lenguaje.Resources.es-MX.resources
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinas\DamasChinas\obj\Debug\es-MX\DamasChinas.resources.dll
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\bin\Debug\DamasChinas.exe.config
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\bin\Debug\DamasChinas.exe
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\bin\Debug\DamasChinas.pdb
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\bin\Debug\es-MX\DamasChinas.resources.dll
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\bin\Debug\en-US\DamasChinas.resources.dll
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csprojResolveAssemblyReference.cache
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\MainWindow.g.cs
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\Registrarse.g.cs
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\App.g.cs
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas_MarkupCompile.cache
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas_MarkupCompile.lref
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\MainWindow.baml
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\Registrarse.baml
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.g.resources
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.Properties.Resources.resources
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.lenguaje.Resources.es-MX.resources
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.lenguaje.Resources.en-US.resources
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csproj.GenerateResource.Cache
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\es-MX\DamasChinas.resources.dll
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\en-US\DamasChinas.resources.dll
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.exe
+C:\Users\carlo\Downloads\DamasChinas\DamasChinas\obj\Debug\DamasChinas.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\bin\Debug\DamasChinas.exe.config
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\bin\Debug\DamasChinas.exe
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\bin\Debug\DamasChinas.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\bin\Debug\es-MX\DamasChinas.resources.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\bin\Debug\en-US\DamasChinas.resources.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csprojResolveAssemblyReference.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\MainWindow.g.cs
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\Registrarse.g.cs
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\App.g.cs
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas_MarkupCompile.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas_MarkupCompile.lref
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\MainWindow.baml
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\Registrarse.baml
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.g.resources
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.Properties.Resources.resources
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.lenguaje.Resources.es-MX.resources
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.lenguaje.Resources.en-US.resources
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csproj.GenerateResource.Cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.csproj.CoreCompileInputs.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\es-MX\DamasChinas.resources.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\en-US\DamasChinas.resources.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.exe
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Proyecto final\C#\DamasChinasv2\DamasChinas\DamasChinas\obj\Debug\DamasChinas.pdb
