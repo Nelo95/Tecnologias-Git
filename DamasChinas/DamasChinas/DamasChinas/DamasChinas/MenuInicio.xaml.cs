@@ -63,9 +63,9 @@ namespace DamasChinas
 
         private void IniciarPartida_Click(object sender, RoutedEventArgs e)
         {
-            UnirsePartida join = new UnirsePartida();
+            Partida match = new Partida();
             PonerTexto();
-            join.Show();
+            match.Show();
             Close();
         }
 

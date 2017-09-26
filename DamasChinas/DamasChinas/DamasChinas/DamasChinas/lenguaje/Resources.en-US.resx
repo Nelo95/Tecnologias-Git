@@ -204,4 +204,13 @@
   <data name="Account" xml:space="preserve">
     <value>Account</value>
   </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Players :</value>
+  </data>
+  <data name="UScore" xml:space="preserve">
+    <value>Score :</value>
+  </data>
 </root>
