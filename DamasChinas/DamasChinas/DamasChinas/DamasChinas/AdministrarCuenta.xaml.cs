@@ -18,15 +18,15 @@ using System.Windows.Navigation;
 namespace DamasChinas
 {
     /// <summary>
-    /// Lógica de interacción para Window2.xaml
+    /// Lógica de interacción para AdministrarCuenta.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class AdministrarCuenta : Window
     {
         ResourceManager AdministradorDeRecursos;
         CultureInfo Cultura;
         string Lenguaje;
 
-        public Window2()
+        public AdministrarCuenta()
         {
             InitializeComponent();
             AdministradorDeRecursos = new ResourceManager("DamasChinas.lenguaje.Resources", typeof(MainWindow).Assembly);
@@ -41,9 +41,9 @@ namespace DamasChinas
             Nombre.Text = AdministradorDeRecursos.GetString("Name", Cultura);
             Usuario.Text = AdministradorDeRecursos.GetString("User", Cultura);
             Contraseña.Text = AdministradorDeRecursos.GetString("Pass", Cultura);
-            actualizarInformacion.Content = AdministradorDeRecursos.GetString("UpdateInfo", Cultura);
+            actualizarInformacion.Content = AdministradorDeRecursos.GetString("UpdatInfo", Cultura);
             regresarBttn.Content = AdministradorDeRecursos.GetString("Back", Cultura);
-            Baja.Content = AdministradorDeRecursos.GetString("Desactivate", Cultura);
+            Baja.Content = AdministradorDeRecursos.GetString("Deactivate", Cultura);
             Idioma.Text = AdministradorDeRecursos.GetString("Language", Cultura);
             Esp.Text = AdministradorDeRecursos.GetString("Spanish", Cultura);
             Eng.Text = AdministradorDeRecursos.GetString("English", Cultura);
@@ -64,6 +64,13 @@ namespace DamasChinas
         {
             Lenguaje = "en-US";
             PonerTexto();
+        }
+
+        private void regresarBttn_Click(object sender, RoutedEventArgs e)
+        {
+            MenuInicio inicio = new MenuInicio();
+            inicio.Show();
+            Close();
         }
     }
 }

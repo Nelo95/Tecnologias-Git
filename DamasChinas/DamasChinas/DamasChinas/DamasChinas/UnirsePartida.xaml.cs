@@ -18,15 +18,15 @@ using System.Windows.Navigation;
 namespace DamasChinas
 {
     /// <summary>
-    /// Lógica de interacción para Window3.xaml
+    /// Lógica de interacción para UnirsePartida.xaml
     /// </summary>
-    public partial class Window3 : Window
+    public partial class UnirsePartida : Window
     {
         ResourceManager AdministradorDeRecursos;
         CultureInfo Cultura;
         string Lenguaje;
 
-        public Window3()
+        public UnirsePartida()
         {
             InitializeComponent();
             AdministradorDeRecursos = new ResourceManager("DamasChinas.lenguaje.Resources", typeof(MainWindow).Assembly);
@@ -38,9 +38,9 @@ namespace DamasChinas
         {
             Cultura = CultureInfo.CreateSpecificCulture(Lenguaje);
             Filtrar.Text = AdministradorDeRecursos.GetString("Filter", Cultura);
-            Volver.Content = AdministradorDeRecursos.GetString("Back2", Cultura);
-            Partidas.Text = AdministradorDeRecursos.GetString("Games",Cultura);
-            Buscar.Content = AdministradorDeRecursos.GetString("Search2", Cultura);
+            Volver.Content = AdministradorDeRecursos.GetString("BackTwo", Cultura);
+            Partidas.Text = AdministradorDeRecursos.GetString("Games", Cultura);
+            Buscar.Content = AdministradorDeRecursos.GetString("SearchTwo", Cultura);
             Unirse.Content = AdministradorDeRecursos.GetString("Join", Cultura);
             Idioma.Text = AdministradorDeRecursos.GetString("Language", Cultura);
             Esp.Text = AdministradorDeRecursos.GetString("Spanish", Cultura);
@@ -57,4 +57,12 @@ namespace DamasChinas
             Lenguaje = "en-US";
 
         }
+
+        private void Volver_Click(object sender, RoutedEventArgs e)
+        {
+            MenuInicio inicio = new MenuInicio();
+            inicio.Show();
+            Close();
+        }
     }
+}

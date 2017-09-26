@@ -120,38 +120,38 @@
   <data name="Back" xml:space="preserve">
     <value>Regresar</value>
   </data>
-  <data name="Back2" xml:space="preserve">
-    <value>Volver al menú principal</value>
+  <data name="BackTwo" xml:space="preserve">
+    <value>Regresar al menú principal</value>
   </data>
   <data name="Create" xml:space="preserve">
     <value>Crear cuenta</value>
   </data>
-  <data name="Desactivate" xml:space="preserve">
-    <value>Darse de baja</value>
+  <data name="Deactivate" xml:space="preserve">
+    <value>Desactivar cuenta</value>
   </data>
   <data name="English" xml:space="preserve">
-    <value>en-US</value>
+    <value>en_US</value>
   </data>
   <data name="Filter" xml:space="preserve">
-    <value>Filtrar por</value>
+    <value>Filtrar por :</value>
   </data>
   <data name="Games" xml:space="preserve">
-    <value>Partidas disponibles</value>
+    <value>Juegos disponibles</value>
   </data>
   <data name="Info" xml:space="preserve">
-    <value>Ingrese su información personal</value>
+    <value>Escribe abajo tu información personal</value>
   </data>
   <data name="Information" xml:space="preserve">
-    <value>Informacion personal</value>
+    <value>Información personal</value>
   </data>
   <data name="Join" xml:space="preserve">
-    <value>Unirse</value>
+    <value>Unirse a juego</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Lenguaje</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>Iniciar Sesión</value>
+    <value>Iniciar sesión</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Cerrar Sesión</value>
@@ -160,39 +160,39 @@
     <value>Nombre</value>
   </data>
   <data name="NotUser" xml:space="preserve">
-    <value>¿No tienes un usuario aún?</value>
+    <value>¿Aun no tienes un usuario?</value>
   </data>
   <data name="Pass" xml:space="preserve">
     <value>Contraseña</value>
   </data>
-  <data name="Records" xml:space="preserve">
+  <data name="Record" xml:space="preserve">
     <value>Historial de partidas</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>Registrate</value>
   </data>
-  <data name="Scores" xml:space="preserve">
-    <value>Mejores puntajes</value>
+  <data name="Score" xml:space="preserve">
+    <value>Puntuaciones máximas</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Buscar partida</value>
+    <value>Buscar juego</value>
   </data>
-  <data name="Search2" xml:space="preserve">
+  <data name="SearchTwo" xml:space="preserve">
     <value>Buscar</value>
   </data>
   <data name="Spanish" xml:space="preserve">
-    <value>es-MX</value>
+    <value>es_MX</value>
   </data>
   <data name="Start" xml:space="preserve">
-    <value>Iniciar partida</value>
+    <value>Iniciar juego</value>
   </data>
-  <data name="Tutorial" xml:space="preserve">
+  <data name="Tuto" xml:space="preserve">
     <value>Tutorial</value>
   </data>
   <data name="Update" xml:space="preserve">
     <value>Actualizar</value>
   </data>
-  <data name="UpdateInfo" xml:space="preserve">
+  <data name="UpdatInfo" xml:space="preserve">
     <value>Actualizar información</value>
   </data>
   <data name="User" xml:space="preserve">
@@ -200,5 +200,8 @@
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bienvenido</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Cuenta</value>
   </data>
 </root>

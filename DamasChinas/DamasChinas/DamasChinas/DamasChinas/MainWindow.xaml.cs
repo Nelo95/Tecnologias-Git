@@ -68,5 +68,13 @@ namespace DamasChinas
             Lenguaje = "en-US";
             PonerTexto();
         }
+
+        private void Inicio_sesion_Click(object sender, RoutedEventArgs e)
+        {
+            MenuInicio menu = new MenuInicio();
+            PonerTexto();
+            menu.Show();
+            Close();
+        }
     }
 }

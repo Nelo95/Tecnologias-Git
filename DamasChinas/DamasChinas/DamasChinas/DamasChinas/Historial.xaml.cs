@@ -18,15 +18,15 @@ using System.Windows.Navigation;
 namespace DamasChinas
 {
     /// <summary>
-    /// Lógica de interacción para Window4.xaml
+    /// Lógica de interacción para Historial.xaml
     /// </summary>
-    public partial class Window4 : Window
+    public partial class Historial : Window
     {
         ResourceManager AdministradorDeRecursos;
         CultureInfo Cultura;
         string Lenguaje;
 
-        public Window4()
+        public Historial()
         {
             InitializeComponent();
             AdministradorDeRecursos = new ResourceManager("DamasChinas.lenguaje.Resources", typeof(MainWindow).Assembly);
@@ -37,7 +37,7 @@ namespace DamasChinas
         {
             Cultura = CultureInfo.CreateSpecificCulture(Lenguaje);
             Filtrar.Text = AdministradorDeRecursos.GetString("Filter", Cultura);
-            Volver.Content = AdministradorDeRecursos.GetString("Back2", Cultura);
+            Volver.Content = AdministradorDeRecursos.GetString("BackTwo", Cultura);
             Idioma.Text = AdministradorDeRecursos.GetString("Language", Cultura);
             Esp.Text = AdministradorDeRecursos.GetString("Spanish", Cultura);
             Eng.Text = AdministradorDeRecursos.GetString("English", Cultura);
@@ -54,4 +54,12 @@ namespace DamasChinas
             Lenguaje = "en-US";
 
         }
+
+        private void Volver_Click(object sender, RoutedEventArgs e)
+        {
+            MenuInicio inicio = new MenuInicio();
+            inicio.Show();
+            Close();
+        }
     }
+}

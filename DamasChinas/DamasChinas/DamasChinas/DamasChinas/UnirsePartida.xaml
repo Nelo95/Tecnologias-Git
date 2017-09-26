@@ -1,4 +1,4 @@
-﻿<Window x:Class="DamasChinas.Window3"
+﻿<Window x:Class="DamasChinas.UnirsePartida"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -12,7 +12,7 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="126,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="Buscar" Content="Buscar" HorizontalAlignment="Left" Margin="299,127,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.424,0.802" Height="23"/>
         <TextBlock x:Name="Partidas" HorizontalAlignment="Left" Margin="126,166,0,0" TextWrapping="Wrap" Text="Partidas disponibles" VerticalAlignment="Top"/>
-        <Button x:Name="Volver" Content="Volver al menú principal" HorizontalAlignment="Left" Margin="208,321,0,0" VerticalAlignment="Top" Width="138"/>
+        <Button x:Name="Volver" Content="Volver al menú principal" HorizontalAlignment="Left" Margin="208,321,0,0" VerticalAlignment="Top" Width="138" Click="Volver_Click"/>
         <Button x:Name="Unirse" Content="Unirse" HorizontalAlignment="Left" Margin="349,247,0,0" VerticalAlignment="Top" Width="75"/>
         <TextBlock x:Name="Idioma" HorizontalAlignment="Left" Margin="45,267,0,0" TextWrapping="Wrap" Text="Idioma" VerticalAlignment="Top"/>
         <TextBlock x:Name="Esp" HorizontalAlignment="Left" Margin="10,308,0,0" TextWrapping="Wrap" Text="es MX" VerticalAlignment="Top" MouseDown="Esp_MouseDown"/>
