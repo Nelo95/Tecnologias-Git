@@ -48,5 +48,27 @@ namespace DamasChinas
             inicio.Show();
             Close();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var botonPresionado = sender as Button;
+            MessageBox.Show(botonPresionado.Name.ToString());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Tablero_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            var pulsado = sender as Image;
+            MessageBox.Show(pulsado.Name.ToString());
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
