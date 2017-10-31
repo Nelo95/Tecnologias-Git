@@ -213,4 +213,26 @@
   <data name="UScore" xml:space="preserve">
     <value>Puntuación :</value>
   </data>
+  <data name="Moves" xml:space="preserve">
+    <value>Movimientos válidos:
+Mover una ficha a una casilla adyacente libre
+Mover dicha saltando una casilla adyacente ocupada por otra ficha posándola en la siguiente casilla (con la misma dirección, en caso de que esté vacía)</value>
+  </data>
+  <data name="Objective" xml:space="preserve">
+    <value>Objetivo del juego:
+Llevar las fichas del triángulo correspondiente al triángulo opuesto</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Puntos:
+Mover una ficha a un sitio vacío: +20 pts
+Saltar una ficha: +40 pts
+Terminar de mover las fichas:
+1er lugar: +100 pts; 2do lugar: +80 pts
+3er lugar: +60 pts; 4to lugar: +40 pts
+5to lugar: +20 pts</value>
+  </data>
+  <data name="Rules" xml:space="preserve">
+    <value>Reglas del juego: El juego soport 2 jugadores
+El jugador sólo podrá mover una ficha por turno</value>
+  </data>
 </root>

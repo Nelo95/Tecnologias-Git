@@ -99,5 +99,20 @@ namespace DamasChinas
             main.Show();
             Close();
         }
+
+        private void Puntajes_Click(object sender, RoutedEventArgs e)
+        {
+            MejoresPuntajes puntajes = new MejoresPuntajes();
+            puntajes.Show();
+            Close();
+
+        }
+
+        private void Tutorial_Click(object sender, RoutedEventArgs e)
+        {
+            Tutorial tutorial = new Tutorial();
+            tutorial.Show();
+            Close();
+        }
     }
 }

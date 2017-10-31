@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:DamasChinas"
         mc:Ignorable="d"
         Title="Buscar partida" Height="393.029" Width="474.519">
+    <Window.Background>
+        <ImageBrush ImageSource="recursos/wood2.jpg"/>
+    </Window.Background>
     <Grid>
         <TextBlock x:Name="Filtrar" HorizontalAlignment="Left" Margin="126,70,0,0" TextWrapping="Wrap" Text="Filtrar por:" VerticalAlignment="Top"/>
         <ComboBox HorizontalAlignment="Left" Margin="254,70,0,0" VerticalAlignment="Top" Width="120" Height="16"/>

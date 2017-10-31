@@ -213,4 +213,27 @@
   <data name="UScore" xml:space="preserve">
     <value>Score :</value>
   </data>
+  <data name="Moves" xml:space="preserve">
+    <value>Valid movements:
+Move a tile to a free adjacent square
+Move said by skipping an adjacent square occupied by another tile by placing it in the next box (with the same address, in case it is empty)</value>
+  </data>
+  <data name="Objective" xml:space="preserve">
+    <value>Objective of the game:
+Carry the tiles of the triangle corresponding to the opposite triangle</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Points:
+Move a file to an empty place: +20 pts
+Skip a file: +40 pts
+Finish moving the tiles:
+1st place: +100 pts; 2nd place: +80 pts
+3rd place: +60 pts; 4th place: +40 pts
+5th place: +20 pts</value>
+  </data>
+  <data name="Rules" xml:space="preserve">
+    <value>Rules of the game: 
+The game supports 2 players
+The player can only move one tile per turn</value>
+  </data>
 </root>

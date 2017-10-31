@@ -1,0 +1,35 @@
+﻿<Window x:Class="DamasChinas.Tutorial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DamasChinas"
+        mc:Ignorable="d"
+        Title="Tutorial" Height="477.305" Width="741.134">
+    <Grid Margin="0,0,-6.333,-9">
+        <Grid.Background>
+            <ImageBrush ImageSource="recursos/wood2.jpg"/>
+        </Grid.Background>
+        <Image Margin="34,39,376,282" Source="recursos/wood 4.jpg" Stretch="Fill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="recursos/wood 4.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <TextBlock x:Name="objetivo" HorizontalAlignment="Left" Margin="72,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="245"><Run Text="Objetivo del juego:"/><Run Text=" Llevar las fichas del triángulo correspondiente al triángulo opuesto"/><LineBreak/><Run/></TextBlock>
+        <Image Margin="367,39,36,282" Source="recursos/wood 5.jpg" Stretch="Fill"/>
+        <TextBlock x:Name="reglas" HorizontalAlignment="Left" Margin="410,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="272"><Run Text="Reglas del juego:"/><Run Text=" "/><LineBreak/><Run Text="El juego soporta 2"/><Run Text=" "/><Run Text="jugadores"/><LineBreak/><Run Text="El jugador sólo podrá mover una ficha por turno"/></TextBlock>
+        <Image Margin="34,211,379,87" Source="recursos/wood 6.jpg" Stretch="Fill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="recursos/wood 4.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image Margin="367,211,23,87" Source="recursos/wood 7.jpg" Stretch="Fill"/>
+        <TextBlock x:Name="movimientos" HorizontalAlignment="Left" Margin="63,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="102" Width="245"><Run Text="Movimientos válidos:"/><LineBreak/><Run Text="Mover una ficha a una casilla adyacente libre"/><Run Text="."/><LineBreak/><Run Text="Mover ficha saltando una casilla adyacente ocupada por otra ficha y posandola en la siguiente casilla (con la misma dirección, en caso de que esté vacía)"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="puntos" HorizontalAlignment="Left" Margin="394,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="111" Width="276"><Run Text="Puntos:"/><LineBreak/><Run Text="Mover una ficha a un sitio vacío: +20 pts"/><LineBreak/><Run Text="Saltar una ficha: +40 pts"/><LineBreak/><Run Text="Terminar de mover las fichas:"/><LineBreak/><Run Text="1er lugar: +100pts; 2do lugar: +80 pts"/><LineBreak/><Run Text="3er lugar: +60 pts"/><Run Text="; 4to lugar: +40 pts"/><LineBreak/><Run Text="5to lugar: +20 pts"/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="Volver" Content="Volver al menú principal" HorizontalAlignment="Left" Margin="562,408,0,0" VerticalAlignment="Top" Width="137" Click="Volver_Click" Cursor="Hand"/>
+        <TextBlock x:Name="Idioma" HorizontalAlignment="Left" Margin="45,386,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.157"><Run Text="Idioma"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Esp" HorizontalAlignment="Left" Margin="34,410,0,0" TextWrapping="Wrap" VerticalAlignment="Top" MouseDown="Esp_MouseDown"><Run Text="es MX"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Eng" HorizontalAlignment="Left" Margin="81,410,0,0" TextWrapping="Wrap" VerticalAlignment="Top" MouseDown="Eng_MouseDown"><Run Text="en US"/><LineBreak/><Run/></TextBlock>
+
+    </Grid>
+</Window>
