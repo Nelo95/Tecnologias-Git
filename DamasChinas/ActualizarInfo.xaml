@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:DamasChinas"
         mc:Ignorable="d"
         Title="ActualizarInfo" Height="336.835" Width="434.243">
+    <Window.Background>
+        <ImageBrush ImageSource="recursos/wood2.jpg"/>
+    </Window.Background>
     <Grid>
         <TextBlock x:Name="Informacion" HorizontalAlignment="Left" Margin="39,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Información personal"/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="Nombre" HorizontalAlignment="Left" Margin="39,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Nombre"/>
@@ -14,8 +17,8 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="127,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="127,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
         <PasswordBox HorizontalAlignment="Left" Margin="127,162,0,0" VerticalAlignment="Top" Width="219"/>
-        <Button x:Name="actualizaBttn" Content="Actualizar" HorizontalAlignment="Left" Margin="182,213,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="regresarBttn" Content="Regresar" HorizontalAlignment="Left" Margin="308,249,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="actualizaBttn" Content="Actualizar" HorizontalAlignment="Left" Margin="182,213,0,0" VerticalAlignment="Top" Width="75" Cursor="Hand"/>
+        <Button x:Name="regresarBttn" Content="Regresar" HorizontalAlignment="Left" Margin="308,249,0,0" VerticalAlignment="Top" Width="75" Cursor="Hand"/>
         <TextBlock x:Name="Idioma" HorizontalAlignment="Left" Margin="39,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Idioma"/>
         <TextBlock x:Name="Esp" HorizontalAlignment="Left" Margin="28,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" MouseDown="Esp_MouseDown"><Run Text="es MX"/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="Eng" HorizontalAlignment="Left" Margin="102,266,0,0" TextWrapping="Wrap" Text="en US" VerticalAlignment="Top" RenderTransformOrigin="-0.269,0.347" MouseDown="Eng_MouseDown"/>
