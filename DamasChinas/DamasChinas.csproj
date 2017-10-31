@@ -47,11 +47,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="UIAutomationProvider" />
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -66,9 +64,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.es-MX.resx</DependentUpon>
     </Compile>
-    <Compile Include="MejoresPuntajes.xaml.cs">
-      <DependentUpon>MejoresPuntajes.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Partida.xaml.cs">
       <DependentUpon>Partida.xaml</DependentUpon>
     </Compile>
@@ -80,9 +75,6 @@
     </Compile>
     <Compile Include="AdministrarCuenta.xaml.cs">
       <DependentUpon>AdministrarCuenta.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Tutorial.xaml.cs">
-      <DependentUpon>Tutorial.xaml</DependentUpon>
     </Compile>
     <Compile Include="UnirsePartida.xaml.cs">
       <DependentUpon>UnirsePartida.xaml</DependentUpon>
@@ -106,10 +98,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MejoresPuntajes.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Partida.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,10 +111,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="AdministrarCuenta.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Tutorial.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -171,22 +155,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="recursos\wood2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\wood 4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\wood 5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\wood 6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\wood 7.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\wood bttn3.png" />
+    <Resource Include="Tablero.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

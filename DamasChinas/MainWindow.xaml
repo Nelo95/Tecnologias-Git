@@ -6,9 +6,6 @@
         xmlns:local="clr-namespace:DamasChinas"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Window.Background>
-        <ImageBrush ImageSource="recursos/wood2.jpg"/>
-    </Window.Background>
     <Grid>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="207,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
         <TextBox HorizontalAlignment="Left" Height="23" Margin="207,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
