@@ -110,8 +110,8 @@ namespace DamasChinas
 
         private void Tutorial_Click(object sender, RoutedEventArgs e)
         {
-            Tutorial tuto = new Tutorial();
-            tuto.Show();
+            Tutorial tutorial = new Tutorial();
+            tutorial.Show();
             Close();
         }
     }
