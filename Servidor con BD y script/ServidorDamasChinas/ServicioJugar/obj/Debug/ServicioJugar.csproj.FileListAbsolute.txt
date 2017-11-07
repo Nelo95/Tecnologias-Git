@@ -1,0 +1,7 @@
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioJugar\bin\Debug\ServicioJugar.dll.config
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioJugar\bin\Debug\ServicioJugar.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioJugar\bin\Debug\ServicioJugar.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioJugar\obj\Debug\ServicioJugar.csprojResolveAssemblyReference.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioJugar\obj\Debug\ServicioJugar.csproj.CoreCompileInputs.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioJugar\obj\Debug\ServicioJugar.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioJugar\obj\Debug\ServicioJugar.pdb

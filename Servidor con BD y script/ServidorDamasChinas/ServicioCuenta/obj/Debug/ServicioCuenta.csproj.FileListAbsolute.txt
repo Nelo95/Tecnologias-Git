@@ -1,0 +1,21 @@
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.dll.config
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.dll
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.pdb
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.dll
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\bin\Debug\EntityFramework.dll
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.pdb
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.dll.config
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csprojResolveAssemblyReference.cache
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csproj.CoreCompileInputs.cache
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.dll
+c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.dll.config
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.dll.config
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csprojResolveAssemblyReference.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csproj.CoreCompileInputs.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.pdb
