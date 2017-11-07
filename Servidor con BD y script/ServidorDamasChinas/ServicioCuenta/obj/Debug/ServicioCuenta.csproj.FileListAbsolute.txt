@@ -19,3 +19,13 @@ D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alph
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csproj.CoreCompileInputs.cache
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.dll
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.dll.config
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.dll.config
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csprojResolveAssemblyReference.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csproj.CoreCompileInputs.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.pdb

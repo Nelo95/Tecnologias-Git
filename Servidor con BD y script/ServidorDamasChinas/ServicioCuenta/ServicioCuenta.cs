@@ -13,7 +13,11 @@ namespace ServicioCuenta
     {
         public string IniciarSesion(string usuario, string contrasenia)
         {
-            var resultado = "";
+            var strBuilder = new StringBuilder();
+            strBuilder.Append("El cliente ");
+            strBuilder.Append(usuario);
+            strBuilder.Append(" se ha conectado con contraseña ");
+            strBuilder.Append(contrasenia);
             /*try
             {
                 using (var entidades = new DamasChinasEntities())
@@ -28,7 +32,7 @@ namespace ServicioCuenta
             {
                 resultado = "UsuarioContraseniaIncorrecto";
             }*/
-            return resultado;
+            return strBuilder.ToString();
         }
     }
 }

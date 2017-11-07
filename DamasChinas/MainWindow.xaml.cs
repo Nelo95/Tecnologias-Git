@@ -1,4 +1,4 @@
-﻿using ServicioCuenta;
+﻿using Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -75,14 +75,14 @@ namespace DamasChinas
 
         private void Inicio_sesion_Click(object sender, RoutedEventArgs e)
         {
-            /* MenuInicio menu = new MenuInicio();
+            MenuInicio menu = new MenuInicio();
              PonerTexto();
              menu.Show();
              Close();
             var usuario = FieldUsuario.Text;
             var contra = FieldContrasenia.Text;
             var resultado = proxy.IniciarSesion(usuario, sha256(contra));
-            MessageBox.Show(resultado);*/
+            MessageBox.Show(resultado);
         }
 
         public string sha256(string contrasena)
