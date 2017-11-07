@@ -1,0 +1,15 @@
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\BaseDeDatos.dll.config
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\BaseDeDatos.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\BaseDeDatos.pdb
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\EntityFramework.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\MySql.Data.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\EntityFramework.xml
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.xml
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\MySql.Data.xml
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.xml
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\obj\Debug\BaseDeDatos.csprojResolveAssemblyReference.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\obj\Debug\BaseDeDatos.csproj.CoreCompileInputs.cache
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\obj\Debug\BaseDeDatos.dll
+D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\Servidor-con-BD-y-script\DamasChinasServidor\BaseDeDatos\obj\Debug\BaseDeDatos.pdb

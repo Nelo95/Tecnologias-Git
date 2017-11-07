@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DamasChinasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="puntajes">
+    <Key>
+      <PropertyRef Name="idpuntajes" />
+    </Key>
+    <Property Name="idpuntajes" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="posicion" Type="Int32" Nullable="false" />
+    <Property Name="puntaje" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="usuarios" Relationship="Self.usuarios_has_puntajes" FromRole="puntajes" ToRole="usuarios" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="idusuarios" />
+    </Key>
+    <Property Name="idusuarios" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="usuario" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contrasenia" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="puntajes" Relationship="Self.usuarios_has_puntajes" FromRole="usuarios" ToRole="puntajes" />
+  </EntityType>
+  <Association Name="usuarios_has_puntajes">
+    <End Role="usuarios" Type="Self.usuarios" Multiplicity="*" />
+    <End Role="puntajes" Type="Self.puntajes" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="DamasChinasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="puntajes" EntityType="Self.puntajes" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" />
+    <AssociationSet Name="usuarios_has_puntajes" Association="Self.usuarios_has_puntajes">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="puntajes" EntitySet="puntajes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

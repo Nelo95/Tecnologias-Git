@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DamasChinasModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="puntajes">
+    <Key>
+      <PropertyRef Name="idpuntajes" />
+    </Key>
+    <Property Name="idpuntajes" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="posicion" Type="int" Nullable="false" />
+    <Property Name="puntaje" Type="int" Nullable="false" />
+    <Property Name="fecha" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="idusuarios" />
+    </Key>
+    <Property Name="idusuarios" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="usuario" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="contrasenia" Type="varchar" MaxLength="64" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'def.damaschinas.usuarios_has_puntajes' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="usuarios_has_puntajes">
+    <Key>
+      <PropertyRef Name="idpuntajes" />
+      <PropertyRef Name="idusuarios" />
+    </Key>
+    <Property Name="idpuntajes" Type="int" Nullable="false" />
+    <Property Name="idusuarios" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="restPuntajes">
+    <End Role="usuarios" Type="Self.usuarios" Multiplicity="1" />
+    <End Role="usuarios_has_puntajes" Type="Self.usuarios_has_puntajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="idusuarios" />
+      </Principal>
+      <Dependent Role="usuarios_has_puntajes">
+        <PropertyRef Name="idusuarios" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="restUsuariosPuntajes">
+    <End Role="puntajes" Type="Self.puntajes" Multiplicity="1" />
+    <End Role="usuarios_has_puntajes" Type="Self.usuarios_has_puntajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="puntajes">
+        <PropertyRef Name="idpuntajes" />
+      </Principal>
+      <Dependent Role="usuarios_has_puntajes">
+        <PropertyRef Name="idpuntajes" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DamasChinasModelStoreContainer">
+    <EntitySet Name="puntajes" EntityType="Self.puntajes" Schema="damaschinas" store:Type="Tables" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="damaschinas" store:Type="Tables" />
+    <EntitySet Name="usuarios_has_puntajes" EntityType="Self.usuarios_has_puntajes" store:Type="Tables" store:Schema="damaschinas">
+      <DefiningQuery>SELECT
+`usuarios_has_puntajes`.`idpuntajes`, 
+`usuarios_has_puntajes`.`idusuarios`
+FROM `usuarios_has_puntajes` AS `usuarios_has_puntajes`</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="restPuntajes" Association="Self.restPuntajes">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="usuarios_has_puntajes" EntitySet="usuarios_has_puntajes" />
+    </AssociationSet>
+    <AssociationSet Name="restUsuariosPuntajes" Association="Self.restUsuariosPuntajes">
+      <End Role="puntajes" EntitySet="puntajes" />
+      <End Role="usuarios_has_puntajes" EntitySet="usuarios_has_puntajes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

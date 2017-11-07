@@ -1,8 +1,10 @@
-﻿using System;
+﻿using ServicioCuenta;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Resources;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,6 +27,8 @@ namespace DamasChinas
         ResourceManager AdministradorDeRecursos;
         CultureInfo Cultura;
         string Lenguaje;
+        public ChannelFactory<IServicioCuenta> canal = new ChannelFactory<IServicioCuenta>("ServicioCuentaEndpoint");
+        public IServicioCuenta proxy;
 
         public MainWindow()
         {
@@ -45,8 +49,8 @@ namespace DamasChinas
             Eng.Text = AdministradorDeRecursos.GetString("English", Cultura);
             Pregunta.Text = AdministradorDeRecursos.GetString("NotUser", Cultura);
             Registro.Text = AdministradorDeRecursos.GetString("Register", Cultura);
+            proxy = canal.CreateChannel();
 
-         
         }
 
         private void Regitrarse_MouseDown(object sender, MouseButtonEventArgs e)
@@ -71,10 +75,26 @@ namespace DamasChinas
 
         private void Inicio_sesion_Click(object sender, RoutedEventArgs e)
         {
-            MenuInicio menu = new MenuInicio();
-            PonerTexto();
-            menu.Show();
-            Close();
+            /* MenuInicio menu = new MenuInicio();
+             PonerTexto();
+             menu.Show();
+             Close();
+            var usuario = FieldUsuario.Text;
+            var contra = FieldContrasenia.Text;
+            var resultado = proxy.IniciarSesion(usuario, sha256(contra));
+            MessageBox.Show(resultado);*/
+        }
+
+        public string sha256(string contrasena)
+        {
+            System.Security.Cryptography.SHA256Managed crypt = new System.Security.Cryptography.SHA256Managed();
+            StringBuilder hash = new StringBuilder();
+            byte[] crypto = crypt.ComputeHash(Encoding.UTF8.GetBytes(contrasena), 0, Encoding.UTF8.GetByteCount(contrasena));
+            foreach (byte theByte in crypto)
+            {
+                hash.Append(theByte.ToString("x2"));
+            }
+            return hash.ToString();
         }
     }
 }
