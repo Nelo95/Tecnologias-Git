@@ -29,3 +29,14 @@ D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecn
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csproj.CoreCompileInputs.cache
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.dll
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.pdb
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.dll.config
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\ServicioCuenta.pdb
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\EntityFramework.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.pdb
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\bin\Debug\BaseDeDatos.dll.config
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csprojResolveAssemblyReference.cache
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.csproj.CoreCompileInputs.cache
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServicioCuenta\obj\Debug\ServicioCuenta.pdb

@@ -22,3 +22,18 @@ D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alph
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.xml
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.xml
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll.config
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.pdb
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.xml
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.xml
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csprojResolveAssemblyReference.cache
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.pdb

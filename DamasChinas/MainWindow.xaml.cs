@@ -76,16 +76,16 @@ namespace DamasChinas
         private void Inicio_sesion_Click(object sender, RoutedEventArgs e)
         {
             MenuInicio menu = new MenuInicio();
-             PonerTexto();
-             menu.Show();
-             Close();
+            PonerTexto();
+            menu.Show();
+            Close();
             var usuario = FieldUsuario.Text;
             var contra = FieldContrasenia.Text;
-            var resultado = proxy.IniciarSesion(usuario, sha256(contra));
+            var resultado = proxy.IniciarSesion(usuario, Sha256(contra));
             MessageBox.Show(resultado);
         }
 
-        public string sha256(string contrasena)
+        public string Sha256(string contrasena)
         {
             System.Security.Cryptography.SHA256Managed crypt = new System.Security.Cryptography.SHA256Managed();
             StringBuilder hash = new StringBuilder();

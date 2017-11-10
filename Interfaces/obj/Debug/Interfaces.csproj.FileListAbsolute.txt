@@ -3,3 +3,9 @@ D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecn
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Interfaces\obj\Debug\Interfaces.dll
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Interfaces\obj\Debug\Interfaces.pdb
