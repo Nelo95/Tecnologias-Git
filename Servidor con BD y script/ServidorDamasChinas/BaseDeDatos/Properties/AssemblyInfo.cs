@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("BaseDeDatos")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Hewlett-Packard")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("BaseDeDatos")]
-[assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2017")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("2ae833d3-bf99-4f34-863f-49f0e05fa489")]
+[assembly: Guid("44d2ff8b-c0b3-447f-b3f3-646cade9980d")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

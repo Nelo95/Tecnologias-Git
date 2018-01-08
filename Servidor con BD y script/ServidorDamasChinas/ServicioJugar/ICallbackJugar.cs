@@ -8,10 +8,23 @@ using System.Text;
 namespace ServicioJugar
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "ICallbackJugar" en el código y en el archivo de configuración a la vez.
-    [ServiceContract]
+    [ServiceContract(CallbackContract = typeof(ICallbackJugar))]
     public interface ICallbackJugar
     {
+        [OperationContract(IsOneWay = true)]
+        void RecibirNombreSala(int nombreSala);
+        [OperationContract(IsOneWay = true)]
+        void RecibirColor(string color);
+        [OperationContract(IsOneWay = true)]
+        void RecibirJugadores(List<string> listaJugadores);
+        [OperationContract(IsOneWay =true)]
+        void RecibirMovimiento(string casillaInicial, string colorInicial, string casillaFinal, string colorFinal);
         [OperationContract]
-        void RecibirMovimiento(string jugador, string posInicial, string posDestino);
+        void NotificarJugadoresAbandonaron();
+        [OperationContract]
+        void RecibirExpulsion();
+        [OperationContract(IsOneWay = true)]
+        void RecibirTurno();
+
     }
 }

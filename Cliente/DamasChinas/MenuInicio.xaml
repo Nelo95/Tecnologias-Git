@@ -1,0 +1,46 @@
+﻿<Window x:Name="Menú" x:Class="DamasChinas.MenuInicio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DamasChinas"
+        mc:Ignorable="d"
+        Title="Menú principal" Height="322.356" Width="438.462">
+    <Window.Background>
+        <ImageBrush ImageSource="recursos/wood2.jpg"/>
+    </Window.Background>
+    <Grid Cursor="Hand">
+
+        <TextBlock x:Name="Bienvenido" HorizontalAlignment="Left" Margin="26,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" RenderTransformOrigin="-0.456,-1.03"><!--<Run Text="Bienvenido"/><LineBreak/><Run/>--></TextBlock>
+        <Button x:Name="IniciarPartida" Content="Iniciar partida" HorizontalAlignment="Left" Margin="26,104,0,0" VerticalAlignment="Top" Width="91" RenderTransformOrigin="0.125,-0.071" Click="IniciarPartida_Click" Foreground="#FFEEF3A0" FontFamily="Poiret One" FontSize="14" Cursor="Hand" FontWeight="ExtraBold" FontStretch="SemiExpanded">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/wood bttn3.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Tutorial" Content="Tutorial" HorizontalAlignment="Left" Margin="26,153,0,0" VerticalAlignment="Top" Width="75" Click="Tutorial_Click" Cursor="Hand" Foreground="#FFEEF3A0" FontFamily="Poiret One" FontStretch="SemiExpanded" FontWeight="ExtraBold" FontSize="14">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/wood bttn3.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Puntajes" Content="Mejores puntajes" HorizontalAlignment="Left" Margin="290,103,0,0" VerticalAlignment="Top" Width="116" Click="Puntajes_Click" Height="23" Foreground="#FFEEF3A0" FontFamily="Poiret One" FontSize="14" Cursor="Hand" FontStretch="SemiExpanded" FontWeight="SemiBold">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/wood bttn3.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Historial" Content="Historial de partidas" HorizontalAlignment="Left" Margin="135,104,0,0" VerticalAlignment="Top" Width="132" Height="21" Click="Historial_Click" Foreground="#FFEEF3A0" FontFamily="Poiret One" FontSize="14" Cursor="Hand" FontStretch="SemiExpanded" FontWeight="ExtraBold">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/wood bttn3.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="CerrarSesion" Content="Cerrar sesión" HorizontalAlignment="Left" Margin="301,229,0,0" VerticalAlignment="Top" Width="75" Click="CerrarSesion_Click" Cursor="Hand"/>
+        <TextBlock x:Name="Idioma" HorizontalAlignment="Left" Margin="26,228,0,0" TextWrapping="Wrap" Text="Idioma" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Esp" HorizontalAlignment="Left" Margin="25,261,0,0" TextWrapping="Wrap" Text="es MX" VerticalAlignment="Top" MouseDown="Esp_MouseDown"/>
+        <TextBlock x:Name="Eng" HorizontalAlignment="Left" Margin="86,261,0,0" TextWrapping="Wrap" Text="en US" VerticalAlignment="Top" Grid.ColumnSpan="2" MouseDown="Eng_MouseDown"/>
+        <Button Name="Cuenta" Content="Cuenta" HorizontalAlignment="Left" Margin="135,153,0,0" VerticalAlignment="Top" Width="75" Click="Cuenta_Click" Cursor="Hand" Foreground="#FFEEF3A0" FontFamily="Poiret One" FontSize="14" FontStretch="SemiExpanded" FontWeight="ExtraBold">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/wood bttn3.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

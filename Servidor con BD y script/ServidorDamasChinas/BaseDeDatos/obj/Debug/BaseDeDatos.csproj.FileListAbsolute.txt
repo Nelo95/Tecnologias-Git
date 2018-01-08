@@ -1,39 +1,5 @@
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll.config
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.pdb
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.dll
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.xml
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csprojResolveAssemblyReference.cache
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csproj.CoreCompileInputs.cache
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.dll
-c:\users\saule\documents\visual studio 2017\Projects\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.pdb
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll.config
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.pdb
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.dll
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.xml
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csprojResolveAssemblyReference.cache
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csproj.CoreCompileInputs.cache
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.dll
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.pdb
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.dll
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.dll
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.dll
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.xml
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.xml
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll.config
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.pdb
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.dll
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.dll
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.xml
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.xml
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csprojResolveAssemblyReference.cache
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csproj.CoreCompileInputs.cache
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.dll
-C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.pdb
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.dll
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\bin\Debug\BaseDeDatos.pdb
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.dll
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\BaseDeDatos\obj\Debug\BaseDeDatos.pdb

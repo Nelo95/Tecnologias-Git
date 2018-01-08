@@ -22,19 +22,6 @@ D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alph
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.csproj.CoreCompileInputs.cache
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.exe
 D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Alpha\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.pdb
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.exe.config
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.exe
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.pdb
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioCuenta.dll
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioJugar.dll
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioCuenta.pdb
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioCuenta.dll.config
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioJugar.pdb
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioJugar.dll.config
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.csprojResolveAssemblyReference.cache
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.csproj.CoreCompileInputs.cache
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.exe
-D:\01 Archivos\Documentos\UV\Tecnologías para la construcción de software\Tecnologías Github\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.pdb
 C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.exe.config
 C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.exe
 C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.pdb
@@ -48,3 +35,16 @@ C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\Servido
 C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.csproj.CoreCompileInputs.cache
 C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.exe
 C:\Users\SaulE\Documents\GitHub\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.pdb
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.exe.config
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.exe
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServidorDamasChinas.pdb
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioCuenta.dll
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioJugar.dll
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioCuenta.pdb
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioCuenta.dll.config
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioJugar.pdb
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\bin\Debug\ServicioJugar.dll.config
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.csprojResolveAssemblyReference.cache
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.csproj.CoreCompileInputs.cache
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.exe
+C:\Users\carba\Desktop\Tecnologias-Git\Servidor con BD y script\ServidorDamasChinas\ServidorDamasChinas\obj\Debug\ServidorDamasChinas.pdb

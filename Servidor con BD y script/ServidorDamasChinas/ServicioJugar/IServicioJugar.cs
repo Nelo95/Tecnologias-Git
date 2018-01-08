@@ -12,10 +12,16 @@ namespace ServicioJugar
     public interface IServicioJugar
     {
         [OperationContract]
-        void Mover(string jugador, string posInicial, string posDestino, int idPartida);
+        int Conectar(string jugador);
         [OperationContract]
-        int UnirseSala(string jugador);
+        void Desconectar(int idPartida, string jugador);
         [OperationContract]
-        void SalirSala(string jugador, int idSala);
+        void JugadorListo(int idPartida);
+        [OperationContract(IsOneWay = true)]
+        void Mover(int sala, string jugador, string posicionInicial, string colorInicial, string posicionFinal, string colorFinal);
+        [OperationContract]
+        List<string> ObtenerListaJugadores(int idPartida);
+        [OperationContract]
+        string ObtenerColor(int idPartida, string nombreJugador);
     }
 }

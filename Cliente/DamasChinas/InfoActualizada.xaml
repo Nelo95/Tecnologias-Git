@@ -1,0 +1,17 @@
+﻿<Window x:Class="DamasChinas.InfoActualizada"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DamasChinas"
+        mc:Ignorable="d"
+        Title="InfoActualizada" Height="177.801" Width="276.725">
+    <Window.Background>
+        <ImageBrush ImageSource="recursos/wood2.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Información actualizada con éxito" HorizontalAlignment="Left" Margin="23,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.574,-2.256" FontSize="14"/>
+        <Button x:Name="aceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="95,83,0,0" VerticalAlignment="Top" Width="75" Click="aceptar_Click"/>
+
+    </Grid>
+</Window>
