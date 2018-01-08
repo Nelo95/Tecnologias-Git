@@ -1,0 +1,647 @@
+﻿<Window x:Class="DamasChinas.Partida"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DamasChinas"
+        mc:Ignorable="d"
+        Title="Partida" Height="787.88" Width="977.952" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="recursos/wood2.jpg"/>
+    </Window.Background>
+    <Grid Height="769" VerticalAlignment="Top" Margin="0,0,3.2,-10.6">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Name="Puntuacion" HorizontalAlignment="Left" Margin="20,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Puntuació"/><Run Text="n :"/></TextBlock>
+        <TextBlock Name="Jugadores" HorizontalAlignment="Left" Margin="20,66,0,0" TextWrapping="Wrap" Text="Jugadores :" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="14" Margin="20,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <TextBox HorizontalAlignment="Left" Height="14" Margin="20,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <TextBox HorizontalAlignment="Left" Height="14" Margin="20,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <TextBox HorizontalAlignment="Left" Height="14" Margin="20,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <TextBox HorizontalAlignment="Left" Height="14" Margin="20,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <TextBox HorizontalAlignment="Left" Height="14" Margin="20,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <Button Name="Salir" Content="Salir" HorizontalAlignment="Left" Margin="20,272,0,0" VerticalAlignment="Top" Width="74" Click="Salir_Click" Cursor="Hand"/>
+        <Image HorizontalAlignment="Left" Height="246" Margin="113,45,0,0" VerticalAlignment="Top" Width="257"/>
+        <Button Click="Button_Click" x:Name="V1"  Grid.Column="1"  HorizontalAlignment="Left" Margin="397,24,0,0" VerticalAlignment="Top" Width="40" Height="40" BorderBrush="#00000000" >
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V2"   Grid.Column="1" HorizontalAlignment="Left" Margin="377,64,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" Click="Button_Click" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V3"   Grid.Column="1" HorizontalAlignment="Left" Margin="417,64,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V4"   Grid.Column="1" HorizontalAlignment="Left" Margin="357,103,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V5"  Grid.Column="1" HorizontalAlignment="Left" Margin="397,103,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V6"   Grid.Column="1" HorizontalAlignment="Left" Margin="436,103,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V7"   Grid.Column="1" HorizontalAlignment="Left" Margin="338,143,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V8"   Grid.Column="1" HorizontalAlignment="Left" Margin="378,143,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V9"   Grid.Column="1" HorizontalAlignment="Left" Margin="416,143,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="V10"  Grid.Column="1" HorizontalAlignment="Left" Margin="454,143,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="#00000000">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaVrde.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N1" Grid.Column="1" HorizontalAlignment="Left" Margin="317,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N2" Grid.Column="1" HorizontalAlignment="Left" Margin="357,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N3" Grid.Column="1" HorizontalAlignment="Left" Margin="397,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N4" Grid.Column="1" HorizontalAlignment="Left" Margin="437,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" Click="Button_Click_1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N5" Grid.Column="1" HorizontalAlignment="Left" Margin="477,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N6" Grid.Column="1" HorizontalAlignment="Left" Margin="297,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N7" Grid.Column="1" HorizontalAlignment="Left" Margin="337,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N8" Grid.Column="1" HorizontalAlignment="Left" Margin="377,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N9" Grid.Column="1" HorizontalAlignment="Left" Margin="417,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N10" Grid.Column="1" HorizontalAlignment="Left" Margin="457,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N11" Grid.Column="1" HorizontalAlignment="Left" Margin="497,223,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N12" Grid.Column="1" HorizontalAlignment="Left" Margin="277,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N13" Grid.Column="1" HorizontalAlignment="Left" Margin="317,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N14" Grid.Column="1" HorizontalAlignment="Left" Margin="357,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N15" Grid.Column="1" HorizontalAlignment="Left" Margin="396,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N16" Grid.Column="1" HorizontalAlignment="Left" Margin="436,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N17" Grid.Column="1" HorizontalAlignment="Left" Margin="476,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N18" Grid.Column="1" HorizontalAlignment="Left" Margin="516,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N19" Grid.Column="1" HorizontalAlignment="Left" Margin="257,302,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N20" Grid.Column="1" HorizontalAlignment="Left" Margin="297,302,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N21" Grid.Column="1" HorizontalAlignment="Left" Margin="337,302,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N22" Grid.Column="1" HorizontalAlignment="Left" Margin="376,302,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N23" Grid.Column="1" HorizontalAlignment="Left" Margin="416,302,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N24" Grid.Column="1" HorizontalAlignment="Left" Margin="456,302,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N25" Grid.Column="1" HorizontalAlignment="Left" Margin="496,302,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N26" Grid.Column="1" HorizontalAlignment="Left" Margin="536,303,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N27" Grid.Column="1" HorizontalAlignment="Left" Margin="237,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N28" Grid.Column="1" HorizontalAlignment="Left" Margin="277,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-2.182"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-5.051"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="N29" Grid.Column="1" HorizontalAlignment="Left" Margin="317,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N30" Grid.Column="1" HorizontalAlignment="Left" Margin="356,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N31" Grid.Column="1" HorizontalAlignment="Left" Margin="396,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N32" Grid.Column="1" HorizontalAlignment="Left" Margin="436,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N33" Grid.Column="1" HorizontalAlignment="Left" Margin="476,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N34" Grid.Column="1" HorizontalAlignment="Left" Margin="516,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N35" Grid.Column="1" HorizontalAlignment="Left" Margin="556,342,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N36" Grid.Column="1" HorizontalAlignment="Left" Margin="257,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N37" Grid.Column="1" HorizontalAlignment="Left" Margin="297,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N38" Grid.Column="1" HorizontalAlignment="Left" Margin="337,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N39" Grid.Column="1" HorizontalAlignment="Left" Margin="376,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N40" Grid.Column="1" HorizontalAlignment="Left" Margin="416,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N41" Grid.Column="1" HorizontalAlignment="Left" Margin="456,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N42" Grid.Column="1" HorizontalAlignment="Left" Margin="496,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N43" Grid.Column="1" HorizontalAlignment="Left" Margin="536,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N44" Grid.Column="1" HorizontalAlignment="Left" Margin="277,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N45" Grid.Column="1" HorizontalAlignment="Left" Margin="317,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N46" Grid.Column="1" HorizontalAlignment="Left" Margin="356,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N47" Grid.Column="1" HorizontalAlignment="Left" Margin="396,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N48" Grid.Column="1" HorizontalAlignment="Left" Margin="436,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N49" Grid.Column="1" HorizontalAlignment="Left" Margin="476,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N50" Grid.Column="1" HorizontalAlignment="Left" Margin="516,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N51" Grid.Column="1" HorizontalAlignment="Left" Margin="297,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N52" Grid.Column="1" HorizontalAlignment="Left" Margin="337,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N53" Grid.Column="1" HorizontalAlignment="Left" Margin="376,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N54" Grid.Column="1" HorizontalAlignment="Left" Margin="416,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N55" Grid.Column="1" HorizontalAlignment="Left" Margin="456,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N56" Grid.Column="1" HorizontalAlignment="Left" Margin="496,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N57" Grid.Column="1" HorizontalAlignment="Left" Margin="317,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N58" Grid.Column="1" HorizontalAlignment="Left" Margin="356,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N59" Grid.Column="1" HorizontalAlignment="Left" Margin="396,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N60" Grid.Column="1" HorizontalAlignment="Left" Margin="436,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="N61" Grid.Column="1" HorizontalAlignment="Left" Margin="476,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/espacioVacio.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R1" Grid.Column="1" HorizontalAlignment="Left" Margin="517,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R2" Grid.Column="1" HorizontalAlignment="Left" Margin="557,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R3" Grid.Column="1" HorizontalAlignment="Left" Margin="597,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R4" Grid.Column="1" HorizontalAlignment="Left" Margin="637,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R5" Grid.Column="1" HorizontalAlignment="Left" Margin="537,223,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R6" Grid.Column="1" HorizontalAlignment="Left" Margin="577,223,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R7" Grid.Column="1" HorizontalAlignment="Left" Margin="617,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R8" Grid.Column="1" HorizontalAlignment="Left" Margin="556,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R9" Grid.Column="1" HorizontalAlignment="Left" Margin="596,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="R10" Grid.Column="1" HorizontalAlignment="Left" Margin="576,303,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaRoja.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L1" Grid.Column="1" HorizontalAlignment="Left" Margin="576,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L2" Grid.Column="1" HorizontalAlignment="Left" Margin="556,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L3" Grid.Column="1" HorizontalAlignment="Left" Margin="596,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L4" Grid.Column="1" HorizontalAlignment="Left" Margin="536,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L5" Grid.Column="1" HorizontalAlignment="Left" Margin="576,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L6" Grid.Column="1" HorizontalAlignment="Left" Margin="616,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L7" Grid.Column="1" HorizontalAlignment="Left" Margin="516,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L8" Grid.Column="1" HorizontalAlignment="Left" Margin="556,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L9" Grid.Column="1" HorizontalAlignment="Left" Margin="596,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="L10" Grid.Column="1" HorizontalAlignment="Left" Margin="636,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaLavanda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="M1" Grid.Column="1" HorizontalAlignment="Left" Margin="337,542,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="M2" Grid.Column="1" HorizontalAlignment="Left" Margin="377,542,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="M3" Grid.Column="1" HorizontalAlignment="Left" Margin="416,542,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="M4" Grid.Column="1" HorizontalAlignment="Left" Margin="456,542,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="M5" Grid.Column="1" HorizontalAlignment="Left" Margin="357,582,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" Click="Button_Click_2" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="M6" Grid.Column="1" HorizontalAlignment="Left" Margin="396,582,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="M7" Grid.Column="1" HorizontalAlignment="Left" Margin="436,582,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="M8" Grid.Column="1" HorizontalAlignment="Left" Margin="377.4,625,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="M9" Grid.Column="1" HorizontalAlignment="Left" Margin="416,622,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="M10" Grid.Column="1" HorizontalAlignment="Left" Margin="396,662,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaMorada.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y1" Grid.Column="1" HorizontalAlignment="Left" Margin="218,382,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y2" Grid.Column="1" HorizontalAlignment="Left" Margin="195,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y3" Grid.Column="1" HorizontalAlignment="Left" Margin="237,422,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y4" Grid.Column="1" HorizontalAlignment="Left" Margin="179,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y5" Grid.Column="1" HorizontalAlignment="Left" Margin="218,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y6" Grid.Column="1" HorizontalAlignment="Left" Margin="257,462,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y7" Grid.Column="1" HorizontalAlignment="Left" Margin="156.4,506,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y8" Grid.Column="1" HorizontalAlignment="Left" Margin="197.4,504,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y9" Grid.Column="1" HorizontalAlignment="Left" Margin="237,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Y10" Grid.Column="1" HorizontalAlignment="Left" Margin="277,502,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAmarilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A1"  Grid.Column="1" HorizontalAlignment="Left" Margin="157,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A2" Grid.Column="1" HorizontalAlignment="Left" Margin="197,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A3" Grid.Column="1" HorizontalAlignment="Left" Margin="237,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A4" Grid.Column="1" HorizontalAlignment="Left" Margin="277,185,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A5" Grid.Column="1" HorizontalAlignment="Left" Margin="177,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A6" Grid.Column="1" HorizontalAlignment="Left" Margin="217,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A7" Grid.Column="1" HorizontalAlignment="Left" Margin="257,224,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A8" Grid.Column="1" HorizontalAlignment="Left" Margin="197,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A9" Grid.Column="1" HorizontalAlignment="Left" Margin="237,263,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="A10" Grid.Column="1" HorizontalAlignment="Left" Margin="217,302,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="3.315,1.947" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="recursos/fichaAzul.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
