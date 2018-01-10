@@ -55,7 +55,6 @@ namespace DamasChinas
             PonerTexto();
             Movimiento = new Tuple<string, string>("", "");
             LlenarTablero();
-            //LlenarDiccionarioJugadores();
             Contexto = new InstanceContext(this);
             Canal = new DuplexChannelFactory<IServicioJugar>(Contexto, "ServicioJugarEndpoint");
             Proxy = Canal.CreateChannel();
@@ -119,6 +118,7 @@ namespace DamasChinas
             //Cambiar color. Casilla Inicial, Casilla Fin   
         }
 
+        //Método para cambiar el color de la ficha 
         private void CambiarColor(Button casilla, string nuevoColor)
         {
             Uri resourceUri = new Uri("recursos/"+nuevoColor+".png", UriKind.Relative);
@@ -565,6 +565,7 @@ namespace DamasChinas
             new Tuple<string, string>( "L10", "azul" ),
         };
 
+        //Método para saber si ya gaó el jugador dependiendo del estado de su ficha
         public void YaGano(string color)
         {
             var fichasGanadoras = (from g in Ganadores
@@ -587,6 +588,7 @@ namespace DamasChinas
             }
         }
 
+        //Método para saber si una ficha es adyacente a otra
             public bool EsAdyacente(string casilla1, string casilla2)
         {
             if (EsTurno)
@@ -609,11 +611,13 @@ namespace DamasChinas
             }
         }
 
+        //Método para recibir el nombre de la sala
         public void RecibirNombreSala(int nombreSala)
         {
             IdSala = nombreSala;
         }
 
+        //Método para recibir el color de fichas
         public void RecibirColor(string color)
         {
             ColorFichas = color;
@@ -630,6 +634,7 @@ namespace DamasChinas
             throw new NotImplementedException();
         }
 
+        //Método para recibir movimientos
         public void RecibirMovimiento(string casillaInicial, string colorInicial, string casillaFinal, string colorFinal)
         {
             var casilla = (from c in Tablero
@@ -653,6 +658,7 @@ namespace DamasChinas
             Listo.IsEnabled = false;
         }
 
+        //Evento para sincronizar la partida de los jugadores
         private void Sincronizar_Click(object sender, RoutedEventArgs e)
         {
             ColorFichas = Proxy.ObtenerColor(IdSala, NombreJugador);
@@ -667,6 +673,7 @@ namespace DamasChinas
             throw new NotImplementedException();
         }
 
+        //Método para recibir turno
         public void RecibirTurno()
         {
             EsTurno = true;

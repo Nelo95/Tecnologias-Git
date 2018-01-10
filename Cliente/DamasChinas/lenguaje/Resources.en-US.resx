@@ -236,4 +236,16 @@ Finish moving the tiles:
 The game supports 2 players
 The player can only move one tile per turn</value>
   </data>
+  <data name="CamposVacíos" xml:space="preserve">
+    <value>There are empty fields</value>
+  </data>
+  <data name="ErrorRegistro" xml:space="preserve">
+    <value>Error when registering the player</value>
+  </data>
+  <data name="JugadorNoRegistrado" xml:space="preserve">
+    <value>Unregistered player</value>
+  </data>
+  <data name="ProblemaConexion" xml:space="preserve">
+    <value>There was a problem with the connection</value>
+  </data>
 </root>

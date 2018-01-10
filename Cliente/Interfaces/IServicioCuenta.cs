@@ -13,5 +13,8 @@ namespace Interfaces
     {
         [OperationContract]
         string IniciarSesion(string usuario, string contrasenia);
+
+        [OperationContract]
+        int RegistrarUsuario(string nombre, string usuario, string contrasenia);
     }
 }

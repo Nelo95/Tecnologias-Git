@@ -16,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DamasChinas.Datos;
 
 namespace DamasChinas
 {
@@ -27,8 +28,6 @@ namespace DamasChinas
         ResourceManager AdministradorDeRecursos;
         CultureInfo Cultura;
         string Lenguaje;
-        public ChannelFactory<IServicioCuenta> canal = new ChannelFactory<IServicioCuenta>("ServicioCuentaEndpoint");
-        public IServicioCuenta proxy;
         
         public MainWindow()
         {
@@ -38,7 +37,7 @@ namespace DamasChinas
             PonerTexto();
         }
         //Cambiar el texto de sus respectivos textox,botones
-        private void PonerTexto()
+        private int PonerTexto()
         {
             Cultura = CultureInfo.CreateSpecificCulture(Lenguaje);
             Usuario.Text = AdministradorDeRecursos.GetString("User", Cultura);
@@ -49,10 +48,11 @@ namespace DamasChinas
             Eng.Text = AdministradorDeRecursos.GetString("English", Cultura);
             Pregunta.Text = AdministradorDeRecursos.GetString("NotUser", Cultura);
             Registro.Text = AdministradorDeRecursos.GetString("Register", Cultura);
-            proxy = canal.CreateChannel();
 
+            return 1;
         }
 
+        //Apartado para registrarse
         private void Regitrarse_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Registrarse registro = new Registrarse();
@@ -61,42 +61,82 @@ namespace DamasChinas
             Close();
         }
 
+        //Apartado para cambiar el idioma a Español
         private void Esp_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Lenguaje = "es-MX";
             PonerTexto();
         }
 
+        //Apartado para cambiar el idioma a Ingles
         private void Eng_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Lenguaje = "en-US";
             PonerTexto();
         }
 
-        private void Inicio_sesion_Click(object sender, RoutedEventArgs e)
+        //Método para comprobar si hay campos vacíos
+        public bool HayCamposNulos(string usuario, string contrasena)
         {
-            PonerTexto();
-            var nombreJugador = FieldUsuario.Text;
-            if (ValidadNombreUsuario(FieldUsuario.Text))
+            //Verifica que la información no sea vacía
+            if (usuario.Equals("") || contrasena.Equals(""))
             {
-                MenuInicio menu = new MenuInicio(nombreJugador);
-                menu.Show();
-                Close();
+                return true;
             }
             else
             {
-                MessageBox.Show("Nombre Invalido");           
+                return false;
             }
-
-            // var usuario = FieldUsuario.Text;
-            //var contra = FieldContrasenia.Text;
-
-
-            /*var  resultado= proxy.IniciarSesion(usuario, Sha256(contra));
-
-                 MenuInicio menu = new MenuInicio();*/
         }
 
+        //Método de evento donde se manda a llamar el método Iniciar Sesion
+        private void Inicio_sesion_Click(object sender, RoutedEventArgs e)
+        {
+            PonerTexto();
+            var nombreJugador = FieldUsuario.Text.Trim();
+            var contraseniaJugador = FieldContrasenia.Password.Trim();
+
+            if (!HayCamposNulos(nombreJugador, contraseniaJugador))
+            {
+                try
+                {
+                    Usuarios usuario = new Usuarios();
+                    usuario.Usuario = nombreJugador;
+                    usuario.Contrasenia = Sha256(contraseniaJugador);
+                    int resultado = UsuariosDAO.RegistrarUsuario(usuario);
+                    if (resultado > 0)
+                    {
+                        MenuInicio menu = new MenuInicio(nombreJugador);
+                        menu.Show();
+                        Close();
+                    }
+                    else
+                    {
+                        MostrarMensaje("JugadorNoRegistrado");
+                    }
+                }catch (TimeoutException)
+                {
+                    MostrarMensaje("ProblemaConexion");
+                }
+            }
+            else
+            {
+                MostrarMensaje("CamposVacíos");
+            }
+        }
+   
+        // Método para mostrar mensajes 
+        public string MostrarMensaje(string causa)
+        {
+            //Se crea el mensaje en el idioma que contiene esta ventana
+            var mensaje = AdministradorDeRecursos.GetString(causa, Cultura);
+            Cursor = Cursors.Arrow;
+            //Se muestra el mensaje
+            MessageBox.Show(mensaje);
+            return causa;
+        }
+
+        //Método para cifrar contraseñas
         public string Sha256(string contrasena)
         {
             System.Security.Cryptography.SHA256Managed crypt = new System.Security.Cryptography.SHA256Managed();
@@ -109,23 +149,15 @@ namespace DamasChinas
             return hash.ToString();
         }
 
-        private void FieldUsuario_TextChanged(object sender, TextChangedEventArgs e)
-        {
 
-        }
-        private bool ValidadNombreUsuario(string nombreUsuario)
+        private void FieldUsuario_TextInpunt(object sender, TextCompositionEventArgs e)
         {
-            bool resultado = false;
-            for (int i = 0; i < nombreUsuario.Length; i++)
-            {
-                int ascci = Convert.ToInt32(Convert.ToChar(nombreUsuario[i]));
-                if ((ascci >= 65 && ascci <= 90 || ascci >= 97 && ascci <= 122) && (ascci >= 48 && ascci <= 57))
-                    resultado = true;
-                else
-                    resultado = false;
-            }
-            return resultado;
-        }
+            int ascci = Convert.ToInt32(Convert.ToChar(e.Text));
+            if((ascci >= 65 && ascci <= 90 || ascci >= 97 && ascci <= 122) && (ascci >= 48 && ascci <= 57))
+                e.Handled = false;
+            else
 
+                e.Handled = true;
+        }
     }
 }

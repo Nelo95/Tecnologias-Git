@@ -28,11 +28,14 @@ namespace ServicioJugar
             JugadoresListos++;
         }
 
+
+        //Unir un jugador a una partida
         public void UnirsePartida(string usuario)
         {
             JugadoresEnEspera.Add(usuario);
         }
 
+        //Asigna colores a los jugadores
         public void AsignarColores()
         {
             var tamano = JugadoresEnEspera.Count();
@@ -65,18 +68,5 @@ namespace ServicioJugar
             }
         }
 
-        /*public void AvanzarTurno()
-        {
-            Console.WriteLine("Antes: " + Turno.ToString());
-            if(Turno < JugadoresListos)
-            {
-                Turno++;
-            }
-            else
-            {
-                Turno = 0;
-            }
-            Console.WriteLine("Después: " + Turno.ToString());
-        }*/
     }
 }

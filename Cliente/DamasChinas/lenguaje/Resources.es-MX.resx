@@ -235,4 +235,16 @@ Terminar de mover las fichas:
     <value>Reglas del juego: El juego soport 2 jugadores
 El jugador sólo podrá mover una ficha por turno</value>
   </data>
+  <data name="CamposVacíos" xml:space="preserve">
+    <value>Hay campos vacíos</value>
+  </data>
+  <data name="ErrorRegistro" xml:space="preserve">
+    <value>Error al registrar al jugador</value>
+  </data>
+  <data name="JugadorNoRegistrado" xml:space="preserve">
+    <value>Jugador no registrado</value>
+  </data>
+  <data name="ProblemaConexion" xml:space="preserve">
+    <value>Hubo un problema con la conexión</value>
+  </data>
 </root>
